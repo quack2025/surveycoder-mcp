@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.quack2025/surveycoder",
+  "title": "SurveyCoder",
+  "description": "Ask questions of SPSS .sav survey data: crosstabs with significance, and AI coding of open ends.",
+  "repository": {
+    "url": "https://github.com/quack2025/surveycoder-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://surveycoder.io/claude-connector/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.surveycoder.io/mcp"
+    }
+  ]
+}
